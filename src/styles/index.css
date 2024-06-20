@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-secondary text-white p-1 rounded-lg;
+  }
+
+  .bg-linear {
+    @apply bg-[linear-gradient(120deg,_rgb(30,_58,_138)_35%,_rgb(253,_224,_71)_35%)];
+  }
+}
