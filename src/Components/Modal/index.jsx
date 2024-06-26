@@ -10,7 +10,7 @@ export const Modal = ({ setIsOpen }) => {
   const types = useGetPokeTypes();
   let typesToShow;
 
-  const excludedTypes = ["unknown", "shadow", "dark"];
+  const excludedTypes = ["unknown", "shadow", "dark", "stellar"];
 
   if (types.data) {
     typesToShow = types.data.filter(
